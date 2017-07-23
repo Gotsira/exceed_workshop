@@ -19,7 +19,6 @@
 	#autobutton {
 		background: rgba(0, 0, 0, 1);
 		margin: auto;
-		padding: 0;
 		border: 0;
 		font-size: 100%;
 		vertical-align: baseline;
@@ -1423,13 +1422,29 @@
 
 		}
 
-.lightbtn, .airbtn, .doorbtn {
+.lightbtn, .doorbtn {
 	height: 270px;
 	width: 320px;
 	margin: auto;
+	background: url("https://images.pexels.com/photos/507980/pexels-photo-507980.jpeg?w=940&h=650&auto=compress&cs=tinysrgb");
+	background-repeat: no-repeat;
+	background-size: 150%;
 }
 
-.lightbtn #lightimg {
-	background: rgba(0, 0, 0, 0);
+.doorbtn {
+	height: 270px;
+	width: 320px;
+	margin: auto;
+	background: url("https://images.pexels.com/photos/484504/pexels-photo-484504.jpeg?h=350&auto=compress&cs=tinysrgb");
 	background-repeat: no-repeat;
+	background-size: 140%;
+}
+
+.airbtn {
+	height: 270px;
+	width: 320px;
+	margin: auto;
+	background: url("https://images.pexels.com/photos/439227/pexels-photo-439227.jpeg?w=940&h=650&auto=compress&cs=tinysrgb");
+	background-repeat: no-repeat;
+	background-size: 150%;
 }

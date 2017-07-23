@@ -1422,3 +1422,14 @@
 			}
 
 		}
+
+.lightbtn, .airbtn, .doorbtn {
+	height: 270px;
+	width: 320px;
+	margin: auto;
+}
+
+.lightbtn #lightimg {
+	background: rgba(0, 0, 0, 0);
+	background-repeat: no-repeat;
+}
